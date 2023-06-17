@@ -12,7 +12,6 @@ if (process.env.DB_HOST != '') {
     };
 
     const MONGOOSE_URL = process.env.DB_URI;
-    console.log("🚀 ~ file: config.js:16 ~ MONGOOSE_URL", MONGOOSE_URL)
     const DB_HOST = process.env.DB_HOST;
 
     mongoose.connect(MONGOOSE_URL, options).catch((err) => {
