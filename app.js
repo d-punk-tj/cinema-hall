@@ -1,4 +1,5 @@
 const express = require('express');
+const dbConfig = require('./config/mongodb/config.js')
 
 const app = express();
 
